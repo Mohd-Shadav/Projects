@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     background-image: url("https://media.istockphoto.com/id/609077324/vector/seamless-question-mark-background.jpg?s=2048x2048&w=is&k=20&c=FlV8Gvb8NRN9rxPGZFOPV-JnArR9LfhYbnaw4UHwdLI=");
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+.main{
+    height: 70vh;
+    width: 42vw;
+    padding: 1rem;
+    background:linear-gradient(to right,skyblue,skyblue);
+    background-image: url("https://media.istockphoto.com/id/1041897544/photo/question-mark-from-white-tablets-on-a-blue-background-the-medical-concept-top-view-copy-space.jpg?s=2048x2048&w=is&k=20&c=P-KW46HEdOzhiR7Q1ZG52XhpT4M1yg1oVlvpMVbR4AM=");
+    /* border: 1px solid black; */
+    border: none;
+     transform: translate(5%,20%);
+     font-size: 1.5rem;
+     border-radius: 10px;
+     position: relative;
+
+    
+    
+}
+.row{
+    margin: 2rem 0 0 3rem ;
+}
+
+.btns{
+    display: flex;
+    margin: 3rem 0 0 3rem;
+    position: fixed;
+    top: 25rem;
+    padding-right: 5rem;
+    
+}
+.next{
+    font-size: 2rem;
+    width: 10vw;
+    height: 5vh;
+    margin: 1rem 0rem 0 5rem;
+    text-align: center;
+    border: none;
+    border-right: 1px solid black;
+    background: lightgreen;
+    border-radius: 10px 0 0 10px;
+    cursor:pointer;
+}
+/* .previous{
+    font-size: 2rem;
+    width: 10vw;
+    height: 5vh;
+    margin: 1rem 2rem 0 0rem;
+    text-align: center;
+    border: none;
+    border-right: 1px solid black;
+    background: linear-gradient(rgb(138, 218, 138),rgb(205, 205, 117));
+    border-radius: 10px 0 0 10px;
+} */
+
+#submit{
+    font-size: 2rem;
+    width: 10vw;
+    height: 5vh;
+    margin: 1rem 5rem 0 0rem;
+    text-align: center;
+    border: none;
+    background-color: #DC143C;
+    border-radius:0 10px 10px 0; 
+    color: white;
+    cursor: pointer;
+}
+.questionHeading{
+    /* font-size: 5rem; */
+    margin-left: 3rem;
+}
+.indexNo{
+    display: inline;
+    float: left;
+}
+
+.end{
+  margin: 10rem 5rem 5rem 7rem;
+  line-height: 4rem;
+}
+.optionsInner,.pointer{
+    cursor: pointer;
+}
